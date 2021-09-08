@@ -6,7 +6,7 @@
 #include  <sys/sem.h>
 #include "awk_sem.h"
 
-int main() {
+main() {
   int semid ;
 
   semid = create_sem(".",'S',0);
