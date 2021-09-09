@@ -2,7 +2,7 @@
 
 
 
-    Below shows howt to compile and execute.
+    Below shows how to compile and execute the programs.
 
 ### Order : p1 p2 p3
 
