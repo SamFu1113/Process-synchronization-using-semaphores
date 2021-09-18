@@ -2,7 +2,7 @@
 
 
 
-    Below shows how to compile and execute the programs.
+Below shows how to compile and execute the programs.
 
 ### Compile and execute Order : p1 p2 p3
 
@@ -22,7 +22,7 @@ $./p2 &
 $./p3 &
 ```
 
-### Order : p1 p3 p2
+### Compile and execute Order : p1 p3 p2
 
 
 ### Compile
