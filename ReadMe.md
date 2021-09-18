@@ -27,7 +27,7 @@ $./p3 &
 
 ### Compile
 
->same as previous one.
+>same as previous one(from line 10 to 14).
 
 ### Execute
 ```sh
