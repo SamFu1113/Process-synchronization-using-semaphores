@@ -27,7 +27,13 @@ $./p3 &
 
 ### Compile
 
->same as previous one(from line 10 to 14).
+>same as previous one.
+>```sh
+$ gcc p1.c sem.c -o p1
+$ gcc p2.c sem.c -o p3
+$ gcc p3.c sem.c -o p2
+
+```
 
 ### Execute
 ```sh
