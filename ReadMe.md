@@ -45,6 +45,7 @@ $./p2 &
  
 ### Remove semaphore id (when execute one round, do this!)
  - ipcrm sem **id**
+ - **id** stands for the semaphore id.
 
 
 
