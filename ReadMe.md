@@ -1,4 +1,4 @@
-# Semaphore
+# Semaphore project
 
 
 
@@ -7,7 +7,7 @@ Below shows how to compile and execute the programs.
 ### Compile and execute Order : p1 p2 p3
 
 
-### Compile
+### Compile commands
 ```sh
 $ gcc p1.c sem.c -o p1
 $ gcc p2.c sem.c -o p2
@@ -15,7 +15,7 @@ $ gcc p3.c sem.c -o p3
 
 ```
 
-### Execute
+### Execute commands
 ```sh
 $./p1 &
 $./p2 &
@@ -25,7 +25,7 @@ $./p3 &
 ### Compile and execute Order : p1 p3 p2
 
 
-### Compile
+### Compile commands
 
 >same as previous one.
 ```sh
@@ -34,7 +34,7 @@ $ gcc p2.c sem.c -o p3
 $ gcc p3.c sem.c -o p2
 ```
 
-### Execute
+### Execute commands
 ```sh
 $./p1 &
 $./p3 &
