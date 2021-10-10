@@ -1,4 +1,4 @@
-# Semaphore project
+# Semaphore synchronization
 
 
 
