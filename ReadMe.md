@@ -1,7 +1,7 @@
 # Semaphore synchronization
 
 ***
-##**Introduction**
+**Introduction**
 ---
 
 - The goal of this lab is make you familiar with semaphores and use them to coordinate and synchronize among processes. The concept introduced in this lab is also applied to multithreads.
