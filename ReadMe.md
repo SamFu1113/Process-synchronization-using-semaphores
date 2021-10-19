@@ -2,7 +2,7 @@
 
 ***
 **Introduction**
----
+---------------------------------------
 
 - The goal of this lab is make you familiar with semaphores and use them to coordinate and synchronize among processes. The concept introduced in this lab is also applied to multithreads.
 - Every operating systems provides a set of synchronization commands (system calls), called IPC (Inter Process Communication).
@@ -12,24 +12,26 @@
 
 ### Compile and execute Order : p1 p2 p3
 
-
-### Compile commands
+***
+## Compile commands
 ```sh
 $ gcc p1.c sem.c -o p1
 $ gcc p2.c sem.c -o p2
 $ gcc p3.c sem.c -o p3
 
 ```
-
-### Execute commands
+---------------------------------------
+***
+## Execute commands
 ```sh
 $./p1 &
 $./p2 &
 $./p3 &
 ```
+---------------------------------------
 
-### Compile and execute Order : p1 p3 p2
-
+***
+## Compile and execute Order : p1 p3 p2
 
 ### Compile commands
 
@@ -39,19 +41,25 @@ $ gcc p1.c sem.c -o p1
 $ gcc p2.c sem.c -o p3
 $ gcc p3.c sem.c -o p2
 ```
-
-### Execute commands
+---------------------------------------
+***
+## Execute commands
 ```sh
 $./p1 &
 $./p3 &
 $./p2 &
 ```
-### Check semaphore id and counts
+---------------------------------------
+***
+## Check semaphore id and counts
  - ipcs
- 
-### Remove semaphore id (when execute one round, do this!)
+---------------------------------------
+
+***
+## Remove semaphore id (when execute one round, do this!)
  - ipcrm sem **id**
  - **id** stands for the semaphore id.
+ ---------------------------------------
 
 
 
