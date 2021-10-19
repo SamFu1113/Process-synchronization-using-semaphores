@@ -20,7 +20,7 @@ $ gcc p2.c sem.c -o p2
 $ gcc p3.c sem.c -o p3
 
 ```
----------------------------------------
+
 ***
 ## Execute commands
 ```sh
@@ -28,7 +28,7 @@ $./p1 &
 $./p2 &
 $./p3 &
 ```
----------------------------------------
+
 
 ***
 ## Compile and execute Order : p1 p3 p2
@@ -41,7 +41,7 @@ $ gcc p1.c sem.c -o p1
 $ gcc p2.c sem.c -o p3
 $ gcc p3.c sem.c -o p2
 ```
----------------------------------------
+
 ***
 ## Execute commands
 ```sh
@@ -49,17 +49,21 @@ $./p1 &
 $./p3 &
 $./p2 &
 ```
----------------------------------------
+
 ***
 ## Check semaphore id and counts
- - ipcs
----------------------------------------
+```sh
+ ipcs
+```
+
 
 ***
 ## Remove semaphore id (when execute one round, do this!)
- - ipcrm sem **id**
+```sh
+ ipcrm sem **id**
+```
  - **id** stands for the semaphore id.
- ---------------------------------------
+
 
 
 
