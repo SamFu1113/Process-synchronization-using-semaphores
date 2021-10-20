@@ -8,6 +8,7 @@
 Every operating systems provides a set of synchronization commands (system calls), called IPC (Inter Process Communication).
 Although the functionality and signatures are different in different O.S., they are basically similar. Please note that, this lab can only be done in Linux. I have to prepare the Linux environment for the labs. 
 
+> &nbsp;&nbsp;&nbsp;&nbsp;In the provided files, there are two sample programs, prog1.c and prog2.c. Please compile them and make them executable in the Linux. prog1.c is very simple. It starts by creating a semaphore.
 ### **Below shows how to compile and execute the programs**
 
 Compile and execute Order : p1 p2 p3
