@@ -14,8 +14,8 @@ The name of semaphore is composed by two parts. One is path and another is proje
 ```diff
 - IMPORTANT:In principle, a semaphore is created for any other processes (including other users) to access it. 
 - Any processes can access the semaphore once they know the path+name.
-
-
+- So, if you plan to run this prog1 and prog2 in the same operating systems with other, you better clear it before doing so. 
+- Another better way is to rename the semaphore so that no one can access the same semaphore with you.
 ```
 ### **Below shows how to compile and execute the programs**
 
