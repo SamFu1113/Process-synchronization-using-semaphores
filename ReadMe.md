@@ -12,7 +12,7 @@ Although the functionality and signatures are different in different O.S., they 
 he name of semaphore is composed by two parts. One is path and another is project id. In prog1.c, it uses create_sem to create a semaphore with name “.”+”S” and its initial value is 0.
 
 ```diff
-- IMPORTANT:
+- IMPORTANT:In principle, a semaphore is created for any other processes (including other users) to access it. Any processes can access the semaphore once they know the **path+name**.
 
 
 ```
