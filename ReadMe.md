@@ -13,7 +13,7 @@ The name of semaphore is composed by two parts. One is path and another is proje
 
 ```diff
 - IMPORTANT:In principle, a semaphore is created for any other processes (including other users) to access it. 
-Any processes can access the semaphore once they know the path+name.
+- Any processes can access the semaphore once they know the path+name.
 
 
 ```
