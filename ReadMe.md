@@ -18,6 +18,7 @@ The name of semaphore is composed by two parts. One is path and another is proje
 - Another better way is to rename the semaphore so that no one can access the same semaphore with you.
 ```
 > &nbsp;&nbsp;&nbsp;&nbsp;After the creation of a semaphore, prog1 calls P(semid), which in some OS books called wait(semid).
+However, the original Linux system calls of semaphore are not P(s) nor wait(s). Interested readers can open sem.c to see how the real Linux system calls are wrapped into P(s) and V(s).
 ### **Below shows how to compile and execute the programs**
 
 Compile and execute Order : p1 p2 p3
