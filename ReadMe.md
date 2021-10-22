@@ -8,7 +8,7 @@
 Every operating systems provides a set of synchronization commands (system calls), called IPC (Inter Process Communication).
 Although the functionality and signatures are different in different O.S., they are basically similar. Please note that, this lab can only be done in Linux. I have to prepare the Linux environment for the labs. 
 
-> &nbsp;&nbsp;&nbsp;&nbsp;In the provided files, there are two sample programs, prog1.c and prog2.c. Please compile them and make them executable in the Linux. prog1.c is very simple. It starts by creating a semaphore.
+> &nbsp;&nbsp;&nbsp;&nbsp;In the provided files, there are two sample programs, *prog1.c* and *prog2.c*. Please compile them and make them executable in the Linux. *prog1.c* is very simple. It starts by creating a semaphore.
 The name of semaphore is composed by two parts. One is path and another is project id. In prog1.c, it uses create_sem to create a semaphore with name “.”+”S” and its initial value is 0.
 
 ```diff
@@ -17,8 +17,8 @@ The name of semaphore is composed by two parts. One is path and another is proje
 - So, if you plan to run this prog1 and prog2 in the same operating systems with other, you better clear it before doing so. 
 - Another better way is to rename the semaphore so that no one can access the same semaphore with you.
 ```
-> &nbsp;&nbsp;&nbsp;&nbsp;After the creation of a semaphore, prog1 calls P(semid), which in some OS books called wait(semid).
-However, the original Linux system calls of semaphore are not P(s) nor wait(s). Interested readers can open sem.c to see how the real Linux system calls are wrapped into P(s) and V(s).
+> &nbsp;&nbsp;&nbsp;&nbsp;After the creation of a semaphore, *prog1* calls *P(semid)*, which in some OS books called *wait(semid)*.
+However, the original Linux system calls of semaphore are not *P(s)* nor *wait(s)*. Interested readers can open *sem.c* to see how the real Linux system calls are wrapped into *P(s)* and *V(s)*.
 > &nbsp;&nbsp;&nbsp;&nbsp;Because semid is initialized as 0, so according to the semantics of a semaphore, prog1 should block on the P(semid). After prog1 enters a blocking state, you can run prog2. 
 ### **Below shows how to compile and execute the programs**
 
