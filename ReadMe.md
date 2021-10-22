@@ -19,6 +19,7 @@ The name of semaphore is composed by two parts. One is path and another is proje
 ```
 > &nbsp;&nbsp;&nbsp;&nbsp;After the creation of a semaphore, prog1 calls P(semid), which in some OS books called wait(semid).
 However, the original Linux system calls of semaphore are not P(s) nor wait(s). Interested readers can open sem.c to see how the real Linux system calls are wrapped into P(s) and V(s).
+> &nbsp;&nbsp;&nbsp;&nbsp;Because semid is initialized as 0, so according to the semantics of a semaphore, prog1 should block on the P(semid). After prog1 enters a blocking state, you can run prog2. 
 ### **Below shows how to compile and execute the programs**
 
 Compile and execute Order : p1 p2 p3
