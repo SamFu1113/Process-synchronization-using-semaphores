@@ -34,6 +34,7 @@ $ gcc –o  prog2  prog2.c sem.c
 ```sh
 $ prog1 &
 ```
+> &nbsp;&nbsp;&nbsp;&nbsp;The purpose of “&” is to tell your shell to run your program in background without blocking your shell. 
 
 ### **Below shows how to compile and execute the programs**
 
