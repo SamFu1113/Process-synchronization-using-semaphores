@@ -24,13 +24,19 @@ The code of *prog2* is very simple too. It uses the name “.”+”S” to find
 In this case, it is *prog1* to be woken up. This is the *signal(S)* in OS text books. This call will wake up *prog1* and then both *prog1* and *prog2* run concurrently to the end.
 
 ## Sample Runs
-###  To run *prog1* and *prog2*, please compile the program as follows:
-
-### **Below shows how to compile and execute the programs**
+### To run *prog1* and *prog2*, please compile the program as follows:
 ```sh
 $ gcc –o  prog1  prog1.c sem.c
 $ gcc –o  prog2  prog2.c sem.c
 ```
+
+### Please run prog1 in Linux as follows:
+```sh
+$ prog1 &
+```
+
+### **Below shows how to compile and execute the programs**
+
 
 Compile and execute Order : p1 p2 p3
 
