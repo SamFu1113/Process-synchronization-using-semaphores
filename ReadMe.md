@@ -41,8 +41,8 @@ So, although *prog1* is immediately blocked by semaphore, your shell is still al
 ```sh
 $ prog2 &
 ```
-> &nbsp;&nbsp;&nbsp;&nbsp;Prog2 should wake up prog1 and then both run to the end concurrently. 
-
+> &nbsp;&nbsp;&nbsp;&nbsp;*Prog2* should wake up *prog1* and then both run to the end concurrently. 
+> &nbsp;&nbsp;&nbsp;&nbsp;After *prog1* and *Prog2* finished, remember that semaphore still exist. 
 
 ### **Below shows how to compile and execute the programs**
 
