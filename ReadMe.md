@@ -30,17 +30,19 @@ $ gcc –o  prog1  prog1.c sem.c
 $ gcc –o  prog2  prog2.c sem.c
 ```
 
-### Please run prog1 in Linux as follows:
+### Please run *prog1* in Linux as follows:
 ```sh
 $ prog1 &
 ```
 > &nbsp;&nbsp;&nbsp;&nbsp;The purpose of “&” is to tell your shell to run your program in background without blocking your shell. 
-So, although prog1 is immediately blocked by semaphore, your shell is still alive for you to continue entering commands. 
+So, although *prog1* is immediately blocked by semaphore, your shell is still alive for you to continue entering commands. 
 
 ### Next, please run
 ```sh
 $ prog2 &
 ```
+> &nbsp;&nbsp;&nbsp;Prog2 should wake up prog1 and then both run to the end concurrently. 
+
 
 ### **Below shows how to compile and execute the programs**
 
