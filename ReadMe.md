@@ -44,6 +44,12 @@ $ prog2 &
 > &nbsp;&nbsp;&nbsp;&nbsp;After *prog1* and *Prog2* finished, remember that semaphore still exist. You can use *ipcs* command to list the IPC resources you own. 
 If you want to delete the semaphore manually, you can use *icprm sem semid*, where semid is the semaphore id listed by ipcs. 
 > &nbsp;&nbsp;&nbsp;&nbsp;You can try a series of runs as follows 
+```sh
+$ prog1 &
+$ prog1 &
+$ prog1 &
+```
+
 ### **Below shows how to compile and execute the programs**
 
 
