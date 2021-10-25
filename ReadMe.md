@@ -44,7 +44,7 @@ $ prog2 &
 ```
 > &nbsp;&nbsp;&nbsp;&nbsp;*Prog2* should wake up *prog1* and then both run to the end concurrently. 
 > &nbsp;&nbsp;&nbsp;&nbsp;After *prog1* and *Prog2* finished, remember that semaphore still exist. 
-
+> &nbsp;&nbsp;&nbsp;&nbsp;You can try a series of runs as follows 
 ### **Below shows how to compile and execute the programs**
 
 
