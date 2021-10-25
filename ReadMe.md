@@ -35,7 +35,8 @@ $ gcc –o  prog2  prog2.c sem.c
 $ prog1 &
 ```
 > &nbsp;&nbsp;&nbsp;&nbsp;The purpose of “&” is to tell your shell to run your program in background without blocking your shell. 
-So, although *prog1* is immediately blocked by semaphore, your shell is still alive for you to continue entering commands. 
+So, although *prog1* is immediately blocked by semaphore, your shell is still alive for you to continue entering commands. You can use *ipcs* command to list the IPC resources you own. 
+> If you want to delete the semaphore manually, you can use *icprm sem semid*, where semid is the semaphore id listed by ipcs. 
 
 ### Next, please run
 ```sh
