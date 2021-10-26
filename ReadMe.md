@@ -49,7 +49,7 @@ $ prog1 &
 $ prog1 &
 $ prog1 &
 ```
-
+> &nbsp;&nbsp;&nbsp;&nbsp;After that, you block three *prog1* on the semaphore. You can use *jobs* to list how many background processes are in the background.
 ### **Below shows how to compile and execute the programs**
 
 
