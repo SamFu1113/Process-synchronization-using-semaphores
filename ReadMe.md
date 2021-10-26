@@ -50,7 +50,7 @@ $ prog1 &
 $ prog1 &
 ```
 > &nbsp;&nbsp;&nbsp;&nbsp;After that, you block three *prog1* on the semaphore. You can use *jobs* to list how many background processes are in the background.
-Next, once you execute *prog2 &*, it will wake up one earlier blocked *prog1*. 
+Next, once you execute *prog2 &*, it will wake up one earlier blocked *prog1*. So you need to run *prog2* three times to wake up all the blocked *prog1*. 
 ### **Below shows how to compile and execute the programs**
 
 
