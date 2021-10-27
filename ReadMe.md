@@ -55,7 +55,7 @@ Next, once you execute *prog2 &*, it will wake up one earlier blocked *prog1*. S
 When *prog1* is woken up, it shall print some message and their process id. So you should observe which process is woken up.
 
 ## Project goal
-> &nbsp;&nbsp;&nbsp;&nbsp;In this lab, three files p1.c p2.c and p3.c are provided.  They are incomplete but simple. 
+> &nbsp;&nbsp;&nbsp;&nbsp;In this lab, three files p1.c p2.c and p3.c are provided.  They are incomplete but simple.Each one will print a message. Please assume p1.c is always execute first.  
 ### **Below shows how to compile and execute the programs**
 
 
