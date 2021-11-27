@@ -29,6 +29,7 @@ In this case, it is *prog1* to be woken up. This is the *signal(S)* in OS text b
 ```sh
 gcc –o  prog1  prog1.c sem.c
 ```
+----------------------------
 ```sh
 gcc –o  prog2  prog2.c sem.c
 ```
