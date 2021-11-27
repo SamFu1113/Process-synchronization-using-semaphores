@@ -27,7 +27,7 @@ In this case, it is *prog1* to be woken up. This is the *signal(S)* in OS text b
 
 ### To run *prog1* and *prog2*, please compile the program as follows:
 ```sh
-$ gcc –o  prog1  prog1.c sem.c
+gcc –o  prog1  prog1.c sem.c
 $ gcc –o  prog2  prog2.c sem.c
 ```
 
