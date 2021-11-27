@@ -49,9 +49,9 @@ prog2 &
 If you want to delete the semaphore manually, you can use *icprm sem semid*, where semid is the semaphore id listed by ipcs. 
 &nbsp;&nbsp;&nbsp;&nbsp;You can try a series of runs as follows 
 ```sh
-$ prog1 &
-$ prog1 &
-$ prog1 &
+prog1 &
+prog1 &
+prog1 &
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;After that, you block three *prog1* on the semaphore. You can use *jobs* to list how many background processes are in the background.
 Next, once you execute *prog2 &*, it will wake up one earlier blocked *prog1*. So you need to run *prog2* three times to wake up all the blocked *prog1*. 
