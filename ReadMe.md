@@ -49,7 +49,8 @@ So, although *prog1* is immediately blocked by semaphore, your shell is still al
 If you want to delete the semaphore manually, you can use *icprm sem semid*, where semid is the semaphore id listed by ipcs. 
 &nbsp;&nbsp;&nbsp;&nbsp;You can try a series of runs as follows 
 ```sh
-prog1 &
+./prog1 &
+```
 prog1 &
 prog1 &
 ```
