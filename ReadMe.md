@@ -51,7 +51,9 @@ If you want to delete the semaphore manually, you can use *icprm sem semid*, whe
 ```sh
 ./prog1 &
 ```
-prog1 &
+```sh
+./prog1 &
+```
 prog1 &
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;After that, you block three *prog1* on the semaphore. You can use *jobs* to list how many background processes are in the background.
