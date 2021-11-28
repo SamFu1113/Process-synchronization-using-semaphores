@@ -42,7 +42,7 @@ gcc –o  prog2  prog2.c sem.c
 So, although *prog1* is immediately blocked by semaphore, your shell is still alive for you to continue entering commands. 
 ### Next, please run
 ```sh
-prog2 &
+./prog2 &
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;*Prog2* should wake up *prog1* and then both run to the end concurrently. 
 &nbsp;&nbsp;&nbsp;&nbsp;After *prog1* and *Prog2* finished, remember that semaphore still exist. You can use *ipcs* command to list the IPC resources you own. 
