@@ -102,7 +102,7 @@ Compile and execute Order : p1 p3 p2
 
 ## Compile commands
 
->same as previous one.
+>The commands are same as previous one but the order is differnet.
 ```sh
 gcc p1.c sem.c -o p1
 ```
