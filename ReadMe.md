@@ -104,7 +104,8 @@ Compile and execute Order : p1 p3 p2
 
 >same as previous one.
 ```sh
-$ gcc p1.c sem.c -o p1
+gcc p1.c sem.c -o p1
+```
 $ gcc p2.c sem.c -o p3
 $ gcc p3.c sem.c -o p2
 ```
