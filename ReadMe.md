@@ -117,6 +117,7 @@ gcc p3.c sem.c -o p2
 ## Execute commands
 ```sh
 ./p1 &
+```
 $./p3 &
 $./p2 &
 ```
