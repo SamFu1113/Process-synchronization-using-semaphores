@@ -108,6 +108,7 @@ gcc p1.c sem.c -o p1
 ```
 ```sh
 gcc p2.c sem.c -o p3
+```
 $ gcc p3.c sem.c -o p2
 ```
 
