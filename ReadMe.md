@@ -128,7 +128,7 @@ gcc p3.c sem.c -o p2
 ***
 ## Check semaphore id and counts
 ```sh
-$ ipcs
+ipcs
 ```
 
 
