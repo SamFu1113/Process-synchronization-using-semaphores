@@ -135,8 +135,9 @@ ipcs
 ***
 ## Remove semaphore id (when execute one round, do this!)
 ```sh
-ipcrm sem **id**
+ipcrm sem 
 ```
+id
  - **id** stands for the semaphore id.
 
 
