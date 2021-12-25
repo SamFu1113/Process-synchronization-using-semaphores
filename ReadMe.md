@@ -39,7 +39,7 @@ gcc –o  prog2  prog2.c sem.c
 ./prog1 &
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;The purpose of “&” is to tell my shell to run my program in background without blocking my shell. 
-So, although *prog1* is immediately blocked by semaphore, your shell is still alive for you to continue entering commands. 
+So, although *prog1* is immediately blocked by semaphore, my shell is still alive for you to continue entering commands. 
 ### Next, please run
 ```sh
 ./prog2 &
