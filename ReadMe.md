@@ -15,7 +15,7 @@ The name of semaphore is composed by two parts. One is path and another is proje
 - IMPORTANT:In principle, a semaphore is created for any other processes (including other users) to access it. 
 - Any processes can access the semaphore once they know the path+name.
 - So, if I plan to run this prog1 and prog2 in the same operating systems with other, I better clear it before doing so. 
-- Another better way is to rename the semaphore so that no one can access the same semaphore with me.
+- Another better way is to rename the semaphore so that no one can access the same semaphore with you.
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;After the creation of a semaphore, *prog1* calls *P(semid)*, which in some OS books called *wait(semid)*.
 However, the original Linux system calls of semaphore are not *P(s)* nor *wait(s)*. Interested readers can open *sem.c* to see how the real Linux system calls are wrapped into *P(s)* and *V(s)*.
