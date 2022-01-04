@@ -19,7 +19,7 @@ The name of semaphore is composed by two parts. One is path and another is proje
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;After the creation of a semaphore, *prog1* calls *P(semid)*, which in some OS books called *wait(semid)*.
 However, the original Linux system calls of semaphore are not *P(s)* nor *wait(s)*. Interested readers can open *sem.c* to see how the real Linux system calls are wrapped into *P(s)* and *V(s)*.
-&nbsp;&nbsp;&nbsp;&nbsp;Because *semid* is initialized as 0, so according to the semantics of a semaphore, *prog1* should block on the *P(semid)*. After *prog1* enters a blocking state, you can run *prog2*. 
+&nbsp;&nbsp;&nbsp;&nbsp;Because *semid* is initialized as 0, so according to the semantics of a semaphore, *prog1* should block on the *P(semid)*. After *prog1* enters a blocking state, I can run *prog2*. 
 The code of *prog2* is very simple too. It uses the name “.”+”S” to find the semaphore created by *prog1* and then call *V(semid)* to release a blocked process from semaphore *semid*. 
 In this case, it is *prog1* to be woken up. This is the *signal(S)* in OS text books. This call will wake up *prog1* and then both *prog1* and *prog2* run concurrently to the end.
 
