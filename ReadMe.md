@@ -46,7 +46,7 @@ So, although *prog1* is immediately blocked by semaphore, my shell is still aliv
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;*Prog2* should wake up *prog1* and then both run to the end concurrently. 
 &nbsp;&nbsp;&nbsp;&nbsp;After *prog1* and *Prog2* finished, remember that semaphore still exist. I can use *ipcs* command to list the IPC resources I own. 
-If you want to delete the semaphore manually, you can use *icprm sem semid*, where semid is the semaphore id listed by ipcs. 
+If I want to delete the semaphore manually, you can use *icprm sem semid*, where semid is the semaphore id listed by ipcs. 
 &nbsp;&nbsp;&nbsp;&nbsp;You can try a series of runs as follows 
 ```sh
 ./prog1 &
