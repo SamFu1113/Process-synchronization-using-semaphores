@@ -97,7 +97,7 @@ gcc p3.c sem.c -o p3
 
 
 ### **Below shows how to compile and execute the programs**
-Compile and execute Order : p1 p3 p2
+Compile and execute Order : ```p1 p3 p2```
 
 ## Compile commands
 
