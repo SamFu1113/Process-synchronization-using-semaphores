@@ -69,7 +69,7 @@ They loop forever until loop exists. That is, suppose I run ```./p1 &``` ```./p2
 ### **Below shows how to compile and execute the programs**
 
 
-Compile and execute Order : p1 p2 p3
+Compile and execute Order : ```sh p1 p2 p3```
 
 
 ## Compile commands
