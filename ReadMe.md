@@ -67,7 +67,7 @@ That is, p1.c is responsible for creating semaphore and p2, p3 are not responsib
 They loop forever until loop exists. That is, suppose I run ```./p1 &``` ```./p2 &``` ```./p3 &```, the program output should be</br>
 ```sh
 P1111111
-
+P2222222
 
 
 
