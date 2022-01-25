@@ -69,7 +69,7 @@ They loop forever until loop exists. That is, suppose I run ```./p1 &``` ```./p2
 P1111111
 P2222222
 P3333333
-
+P3333333
 
 ```
 
