@@ -151,7 +151,7 @@ ipcrm sem id
  
  
 ## Notes
-&nbsp;&nbsp;In order to achieve the goal, I need to think of some ways to use semaphore
+&nbsp;&nbsp;In order to achieve the goal, I need to think of some ways to use semaphore to coordinate the processes.
 
 
 
