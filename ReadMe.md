@@ -151,7 +151,7 @@ ipcrm sem id
  
  
 ## Notes
-&nbsp;&nbsp;In order to achieve the goal,
+&nbsp;&nbsp;In order to achieve the goal, I need to think of some ways to use semaphore
 
 
 
