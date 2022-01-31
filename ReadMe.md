@@ -148,6 +148,9 @@ ipcs
 ipcrm sem id
 ```
  - **id** stands for the semaphore id.
+ 
+ 
+## Notes
 
 
 
