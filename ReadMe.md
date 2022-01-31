@@ -151,7 +151,7 @@ ipcrm sem id
  
  
 ## Notes
-
+&nbsp;&nbsp;In order to achieve the goal,
 
 
 
