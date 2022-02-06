@@ -6,7 +6,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;The goal of this project is make me familiar with semaphores and use them to coordinate and synchronize among processes. The concept introduced in this project is also applied to multithreads.
 Every operating systems provides a set of synchronization commands (system calls), called IPC (Inter Process Communication).
-Although the functionality and signatures are different in different OS, they are basically similar. Please note that, this lab can only be done in Linux. I have to prepare the Linux environment for the labs. 
+Although the functionality and signatures are different in different OS, they are basically similar. Please note that, this project can only be done in Linux. I have to prepare the Linux environment for the labs. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;In the provided files, there are two sample programs, *prog1.c* and *prog2.c*. Please compile them and make them executable in the Linux. *prog1.c* is very simple. It starts by creating a semaphore.
 The name of semaphore is composed by two parts. One is path and another is project id. In 'prog1.c', it uses create_sem to create a semaphore with name “.”+”S” and its initial value is 0.
