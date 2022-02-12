@@ -63,7 +63,11 @@ When *prog1* is woken up, it shall print some message and their process id. So I
 
 ## Project goal
 &nbsp;&nbsp;&nbsp;&nbsp;In this project, three files *p1.c* *p2.c* and *p3.c* are provided.  They are incomplete but simple.Each one will print a message. Please assume *p1.c* is always executed first. 
+<<<<<<< HEAD
 That is, *p1.c* is responsible for creating semaphore and *p2*, *p3* are not responsible for creating semaphores. My goal is to use semaphores to coordinate p1,p2,p3 so that p1 prints message once, p2 prints message once, and then p3 prints message twice.
+=======
+That is, p1.c is responsible for creating semaphore and p2, p3 are not responsible for creating semaphores. My goal is to use semaphores to coordinate p1,p2,p3 so that p1 prints message once, p2 prints message once, and then p3 prints message twice.
+>>>>>>> parent of 9084a31 (Update ReadMe.md)
 They loop forever until loop exists. That is, suppose I run ```./p1 &``` ```./p2 &``` ```./p3 &```, the program output should be</br>
 ```sh
 P1111111
