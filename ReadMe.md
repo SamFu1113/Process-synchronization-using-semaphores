@@ -66,7 +66,7 @@ When *prog1* is woken up, it shall print some message and their process id. So I
 
 &nbsp;&nbsp;&nbsp;&nbsp;That is, *p1.c* is responsible for creating semaphore and *p2*, *p3* are not responsible for creating semaphores. My goal is to use semaphores to coordinate p1,p2,p3 so that p1 prints message once, p2 prints message once, and then p3 prints message twice.
 
-They loop forever until loop exists. That is, suppose I run ```./p1 &``` ```./p2 &``` ```./p3 &```, the program output should be</br>
+&nbsp;&nbsp;&nbsp;&nbsp;They loop forever until loop exists. That is, suppose I run ```./p1 &``` ```./p2 &``` ```./p3 &```, the program output should be</br>
 ```sh
 P1111111
 P2222222
