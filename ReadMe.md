@@ -112,7 +112,7 @@ gcc p3.c sem.c -o p3
 
 ### **Below shows another way how to compile and execute the programs**
 
-- Test my program by different order such as:
+- Test my program by different order such as below explanation:
 
 Compile and execute Order : ```p1 p3 p2```
 
