@@ -114,7 +114,7 @@ gcc p3.c sem.c -o p3
 
 > Test my program by different order such as below explanation:
 
-Compile and execute Order : ```p1 p3 p2```, but the program output should be the same as. 
+Compile and execute Order : ```p1 p3 p2```, but the program output should be the same as previous. 
 
 ## Compile commands
 
