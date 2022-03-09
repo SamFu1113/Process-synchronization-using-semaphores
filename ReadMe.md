@@ -158,7 +158,7 @@ ipcrm sem id
  
  
 ## Notes
-&nbsp;&nbsp;In order to achieve the goal, I need to think of some ways to use semaphore to coordinate the processes.
+&nbsp;&nbsp;In order to achieve the goal, I need to think of some ways to use semaphore to coordinate the processes. Try to let p1 prints message once first.
 
 
 
