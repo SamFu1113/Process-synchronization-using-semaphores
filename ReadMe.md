@@ -162,7 +162,7 @@ ipcrm sem id
 
 **NOTE THAT**, someone may test my program by different order such as:
 p1 & ; p3 & ; p2 &
-But your program output should be the same.
+But my program output should be the same.
 
 
 NOTE THAT,
