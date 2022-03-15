@@ -164,4 +164,4 @@ ipcrm sem id
 ```p1 & ; p3 & ; p2 &``` but my program output should be the same.
 
 
-NOTE THAT, when TA tests your program,
+NOTE THAT, when someone tests your program,
