@@ -161,7 +161,7 @@ ipcrm sem id
 &nbsp;&nbsp;In order to achieve the goal, I need to think of some ways to use semaphore to coordinate the processes. Try to let *p1* prints message once first.  After that, *p2* is allowed to print message. Next, *p3* is allowed to print message twice.
 
 **NOTE THAT**, someone may test my program by different order such as:
-p1 & ; p3 & ; p2 &
+```p1 & ; p3 & ; p2 &```
 But my program output should be the same.
 
 
