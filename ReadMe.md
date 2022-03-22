@@ -163,7 +163,7 @@ ipcrm sem id
 **NOTE THAT**, someone may test my program by different order such as:
 ```p1 & ; p3 & ; p2 &``` but my program output should be the same.
 
-**NOTE THAT**,
+**NOTE THAT**, when TA tests your program,
 
 
 NOTE THAT, when someone tests my program,
