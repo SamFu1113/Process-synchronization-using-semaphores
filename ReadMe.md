@@ -163,7 +163,7 @@ ipcrm sem id
 **NOTE THAT**, someone may test my program by different order such as:
 ```p1 & ; p3 & ; p2 &``` but my program output should be the same.
 
-**NOTE THAT**, when someone tests your program, he(she) will use ipcrm to clear any existing semaphores. 
+**NOTE THAT**, when someone tests your program, he(she) will use ipcrm to clear any existing semaphores. So, you should do so as well.
 
 
 NOTE THAT, when someone tests my program,
