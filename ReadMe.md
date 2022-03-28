@@ -165,4 +165,8 @@ ipcrm sem id
 
 **NOTE THAT**, when someone tests your program, he(she) will use ipcrm to clear any existing semaphores. So, I should do so as well. Clear all the semaphores by ipcrm before running my program. 
 
+```diff
 
+
+
+```
