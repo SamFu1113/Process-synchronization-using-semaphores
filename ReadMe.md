@@ -167,7 +167,7 @@ ipcrm sem id
 
 ```diff
 - IMPORTANT CONSTRAINTS:
-To coordinate p1, p2 and p3,
+To coordinate p1, p2 and p3, you are only allowed to use P(),
 
 
 ```
