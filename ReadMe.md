@@ -168,7 +168,7 @@ ipcrm sem id
 ```diff
 - IMPORTANT CONSTRAINTS:
 To coordinate p1, p2 and p3, **I'm only allowed to use P(), V()** for the lab. I'm not allowed to use any other statements such as IF or use additional variables, etc. 
-If you use other commands other than P() and V(), you will get 0 points.
+If you use other commands other than P() and V(), I will get 0 points.
 (1) remember to killed bad processes when your experiment fails
 (2) remember to clear your semaphore by ipcrm. 
 
