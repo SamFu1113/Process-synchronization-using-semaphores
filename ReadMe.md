@@ -174,4 +174,4 @@ If I use other commands other than P() and V(), I will get 0 points.
 ```
 
 ### HINT
-In order to achieve the synchronization,
+&nbsp;&nbsp;&nbsp;&nbsp;In order to achieve the synchronization,
