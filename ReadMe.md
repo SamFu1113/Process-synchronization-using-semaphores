@@ -171,5 +171,4 @@ To coordinate p1, p2 and p3, **I'm only allowed to use P(), V()** for the lab. I
 If I use other commands other than P() and V(), I will get 0 points.  
 (1) remember to killed bad processes when my experiment fails
 (2) remember to clear my semaphore by ipcrm. 
-
 ```
