@@ -173,5 +173,5 @@ If I use other commands other than P() and V(), I will get 0 points.
 2. remember to clear my semaphore by ipcrm. 
 ```
 
-### Hint
+### HINT
 In order to achieve the synchronization,
