@@ -174,4 +174,4 @@ If I use other commands other than P() and V(), I will get 0 points.
 ```
 
 ### HINT
-&nbsp;&nbsp;&nbsp;&nbsp;In order to achieve the synchronization, please think how many semaphores should be used. Then use create_sem() in p1.c to create all the semaphores and their initial values. Then, in p2, p3, 
+&nbsp;&nbsp;&nbsp;&nbsp;In order to achieve the synchronization, please think how many semaphores should be used. Then use create_sem() in p1.c to create all the semaphores and their initial values. Then, in p2, p3, before the loop, 
