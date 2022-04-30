@@ -175,4 +175,4 @@ If I use other commands other than P() and V(), I will get 0 points.
 
 ### HINT
 &nbsp;&nbsp;&nbsp;&nbsp;In order to achieve the synchronization, please think how many semaphores should be used. Then use ```create_sem()``` in *p1.c* to create all the semaphores and their initial values. Then, in *p2*, *p3*, before the loop, use ```get_sem()``` to read the semaphores created by *p1*. 
-&nbsp;&nbsp;&nbsp;&nbsp;The initial values of semaphores are very important. Semaphore values must be greater than 0. There are no points in setting a negative semaphore value. 
+&nbsp;&nbsp;&nbsp;&nbsp;The initial values of semaphores are very important. Semaphore values must be greater than 0. There are no points in setting a negative semaphore value. Before and after the printf statements, 
